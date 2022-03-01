@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+* {
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    min-height: 200vh;
+    background-size: cover;
+}
+
+.btn-quizz {
+    font-style: normal;
+    border: none;
+    width: max-content;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    padding: 18px 80px;
+    margin: 15px;
+    background-image: -webkit-linear-gradient(358.32deg, #177cbd 0, #1dbbff 50%, #177cbd 100%);
+    background-image: linear-gradient(91.68deg, #177cbd 0, #1dbbff 50%, #177cbd 100%);
+    background-size: 200%;
+    background-position: left;
+}
+
+.box {
+    transition: 0.25s ease;
+    padding: 10px;
+    margin-top: 250px;
+}
+
+p {
+    visibility: hidden;
+    width: 240px;
+    margin: 10px auto 0;
+    transition: .6s;
+}
+
+.question-click {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 6px dashed rebeccapurple;
+}
+
+.show-reponse {
+    visibility: visible;
+    color: white;
+    opacity: 1;
+}
+
+#mousemove {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    z-index: -1;
+    background-color: #177dbd6c;
+    transition: 0.2s;
+}
+
+form {
+    gap: 5px;
+    width: 800px;
+    height: 800px;
+}
